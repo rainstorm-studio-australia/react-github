@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from './components/menu/Menu'
+import Menu from './components/Menu/Menu'
 
 const menuList = [
   { text: 'Website', imageUrl: 'https://via.placeholder.com/350x150' },
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <h1>Header</h1>
-      <Menu menuList={menuList} />
+      <Menu />
     </div>
   )
 }
