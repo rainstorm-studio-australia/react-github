@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../button/Button";
+import CustomButton from "../button/Button";
 import "./Menu.scss";
 
 const Menu = ({ menuList }) => {
@@ -10,7 +10,7 @@ const Menu = ({ menuList }) => {
           <li key={`menu-${index}`} className="menu-item">
               <p>{menuItem.text}</p>
               <img src={menuItem.imageUrl} alt="" />
-              <Button />
+              <CustomButton />
           </li>
         ))}
       </ul>
